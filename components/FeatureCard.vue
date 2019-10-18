@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div @click="$emit('featureModal')">
     <h3 class="feature-card__title">{{ features.title }}</h3>
     <p>Learn More</p>
   </div>

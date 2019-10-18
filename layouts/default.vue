@@ -15,7 +15,7 @@
 }
 
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 62.5%;
   word-spacing: 1px;
@@ -28,6 +28,10 @@ html {
 
 body {
   margin: 0;
+
+  @media (max-width:1024px) {
+    padding-bottom: 7rem;
+  }
 }
 
 h1 {
